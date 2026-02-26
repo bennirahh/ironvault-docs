@@ -32,5 +32,6 @@ This project follows the **ADR (Architecture Decision Record)** standard to docu
 * **Implementation (IaC):** [IRONVAULT-infra](https://github.com/TON_USERNAME/ironvault-infra)
 
 ---
-**License:** MIT  
-**Author:** Bennirah
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Author](https://img.shields.io/badge/author-Bennirahh-white?style=flat&logo=github)
+
