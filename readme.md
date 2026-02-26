@@ -1,15 +1,36 @@
-# IRONVAULT - Strategy & Governance
+# 🛡️ IRONVAULT: Strategy & Governance
 
-This repository contains the high-level architecture, strategic decisions, and risk management documentation for the **IRONVAULT** sovereign infrastructure.
+> **Sovereign, High-Availability Bare-Metal Infrastructure.**
 
-## 🎯 Vision
-To build a resilient, 3-node bare-metal cluster designed for high-criticality services (FinTech, HealthData, State Infrastructure) with zero reliance on public cloud providers.
+This repository serves as the central **Source of Truth** for the IRONVAULT project's architecture, strategic mandates, and risk management framework.
 
-## 📁 Documentation Structure
-* `/docs/adr`: **Architecture Decision Records**. The "Why" behind every technical choice.
-* `/docs/risk-analysis`: Identification of threats and mitigation strategies.
-* `/docs/compliance`: (Planned) Security standards and sovereign data regulations.
+---
 
-## 🚀 Repositories
-* **Governance (This repo):** [IRONVAULT-docs](https://github.com/TON_USER/ironvault-docs)
-* **Implementation:** [IRONVAULT-infra](https://github.com/TON_USER/ironvault-infra)
+## 🎯 Executive Vision
+**IRONVAULT** is a mission-critical infrastructure designed to host sovereign services (FinTech, HealthData, and State Systems). By rejecting public cloud dependencies, it ensures total hardware-to-software control, high-availability through 3-node clustering, and immutable security.
+
+## 🛠️ Core Technology Stack
+* **Operating System:** [NixOS](https://nixos.org/) (Declarative & Immutable)
+* **Provisioning:** [Nix Flakes](https://nixos.wiki/wiki/Flakes) (Hermetic Reproducibility)
+* **Orchestration:** K3s / Kubernetes (Self-healing Cluster)
+* **Storage:** ZFS / Ceph (Data Integrity & Snapshots)
+* **Security:** LUKS (Encryption at Rest) & WireGuard (Zero-Trust Networking)
+
+## 🏗️ Architecture Governance
+This project follows the **ADR (Architecture Decision Record)** standard to document every strategic pivot:
+* **/docs/adr**: Rationale behind infrastructure, networking, and security choices.
+* **/docs/risk-analysis**: Threat modeling and mitigation strategies (MRI).
+* **/docs/compliance**: Roadmap for ISO/IEC 27001 and GDPR alignment.
+
+## 🗺️ Strategic Roadmap
+- [x] **Phase 1: Governance** (ADR-001, Risk Matrix, Repo Structure)
+- [ ] **Phase 2: Core Hardening** (NixOS Bare-metal, Disk Encryption, SSH Zero-Trust)
+- [ ] **Phase 3: Cluster Formation** (Multi-node Networking, K3s Orchestration)
+- [ ] **Phase 4: Service Deployment** (High-Availability Database, Private Cloud API)
+
+## 🚀 Associated Repositories
+* **Implementation (IaC):** [IRONVAULT-infra](https://github.com/TON_USERNAME/ironvault-infra)
+
+---
+**License:** MIT  
+**Author:** Bennirah
