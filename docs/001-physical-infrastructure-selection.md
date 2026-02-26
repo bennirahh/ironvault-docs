@@ -15,10 +15,10 @@ The main constraints are **data sovereignty**, **high availability**, and **tota
 * **Sovereignty:** Data must remain under local jurisdiction and physical control.
 * **Resilience:** The system must survive a hardware failure without service interruption.
 * **Cost Efficiency:** Long-term CAPEX (buying hardware) vs. OPEX (monthly cloud subscriptions).
-* **Expertise:** Mastering the "Bare-Metal" layer to reach a senior SRE/DevSecOps level.
+* **Security & Control:** Full mastery of the hardware-to-software stack to eliminate "black-box" dependencies and supply chain risks.
 
 ## 3. Considered Options
-* **Option A: Public Cloud:** Scalable but fails sovereignty and long-term cost tests.
+* **Option A: Public Cloud:** Scalable but fails sovereignty and long-term cost-predictability tests.
 * **Option B: Single Server:** Cost-effective but represents a Single Point of Failure (SPOF).
 * **Option C: 3-Node Physical Cluster:** High resilience through distributed quorum.
 
@@ -28,7 +28,7 @@ The main constraints are **data sovereignty**, **high availability**, and **tota
 ### Consequences
 * **Positive:**
     * **Quorum:** With 3 nodes, the orchestrator (Kubernetes) maintains a majority even if one node fails.
-    * **No Trust Required:** We own the encryption keys and the physical disks.
+    * **Trustless Design:** We own the encryption keys and the physical disks.
     * **Zero RTO:** High availability allows for "rolling updates" without downtime.
 * **Negative:**
     * Requires manual networking setup (VLANs/Switch).
