@@ -23,3 +23,6 @@ By disabling password authentication and enforcing **LUKS encryption**, we ensur
 
 ### R-06: Traceability
 Using **NixOS Flakes** allows us to know exactly which version of which software is running at any given time, reducing the "Black Box" risk common in traditional distributions.
+
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Author](https://img.shields.io/badge/author-Bennirahh-white?style=flat&logo=github)
