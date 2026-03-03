@@ -29,7 +29,7 @@ This project follows the **ADR (Architecture Decision Record)** standard to docu
 - [ ] **Phase 4: Service Deployment** (High-Availability Database, Private Cloud API)
 
 ## 🚀 Associated Repositories
-* **Implementation (IaC):** [IRONVAULT-infra](https://github.com/TON_USERNAME/ironvault-infra)
+* **Implementation (IaC):** [IRONVAULT-infra](https://github.com/bennirahh/ironvault-infra)
 
 ---
 ![License](https://img.shields.io/badge/license-MIT-blue)
